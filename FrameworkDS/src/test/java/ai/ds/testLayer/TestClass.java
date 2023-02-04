@@ -27,6 +27,7 @@ public class TestClass extends TestBase {
 		String actual_url=driver.getCurrentUrl();
 		Assert.assertEquals(actual_url, expected_url);
 		System.out.println("successfully created");
+		System.out.println("successfully created");
 		
 	}
 //	

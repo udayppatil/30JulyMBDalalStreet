@@ -26,6 +26,7 @@ public class TestClass extends TestBase {
 		String expected_url="https://apps.dalalstreet.ai/dashboard";
 		String actual_url=driver.getCurrentUrl();
 		Assert.assertEquals(actual_url, expected_url);
+		System.out.println("successfully created");
 		
 	}
 //	
